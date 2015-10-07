@@ -92,8 +92,8 @@ public class ConsumerGroupExample {
 //        String topic = args[2];
 //        int threads = Integer.parseInt(args[3]);
  
-        String zooKeeper = "sandbox.hortonworks.com:2181";
-        String groupId = "kafkaTest";
+        String zooKeeper = "jetslave5.jetnetname.artem.com:2181,jetmaster1.jetnetname.artem.com:2181,jetmaster2.jetnetname.artem.com:2181";
+        String groupId = "StormSpoutConsumerGroup";
         String topic = "opensoc12";
         int threads = 1;
         
