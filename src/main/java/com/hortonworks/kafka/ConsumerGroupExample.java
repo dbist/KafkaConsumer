@@ -94,7 +94,7 @@ public class ConsumerGroupExample {
  
         String zooKeeper = "sandbox.hortonworks.com:2181";
         String groupId = "kafkaTest";
-        String topic = "json";
+        String topic = "opensoc12";
         int threads = 1;
         
         ConsumerGroupExample example = new ConsumerGroupExample(zooKeeper, groupId, topic);
